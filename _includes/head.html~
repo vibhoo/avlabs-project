@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-<head>	
-<meta charset="UTF-8" />
+	<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<title>{{page.title}}</title>
@@ -34,4 +31,4 @@
 		<script src="scripts/demo1.js"></script>
 
 <button class="cn-button2" id="cn-button2"></button>
-			</head>	
+				
