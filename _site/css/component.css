@@ -11,7 +11,7 @@ body {
 }
 
 .splitlayout {
-	position: relative;
+	position: fixed;
 	overflow-x: hidden;
 	min-height: 100%;
 	width: 100%;
