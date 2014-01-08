@@ -54,14 +54,14 @@ body {
 
 .side-left {
 	left: 0;
-	background: #47a3da;
+	background: rgb(218, 177, 71);
 	color: #fff;
 	outline: 1px solid #47a3da; /* avoid gap */
 }
 
 .side-right {
 	right: 0;
-    background: rgb(90, 44, 133);
+    background: rgb(44, 119, 133);
     color: #fff;
     outline: 1px solid #fff; /* avoid gap */
 }
@@ -83,7 +83,7 @@ body {
 	width: 140px;
 	height: 140px;
 	border-radius: 50%;
-	background: #47a3da;
+	
 }
 
 .profile img {
