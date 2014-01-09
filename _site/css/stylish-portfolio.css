@@ -1,11 +1,5 @@
 /* Global Styles */
 
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
-
 .vert-text {
   display: table-cell;
   vertical-align: middle;
@@ -202,9 +196,9 @@ i.scroll:hover {
 
 @media (max-width: 768px) {
 	
-  .header {
+ /* .header {
 	background: url(../img/bg.jpg) no-repeat center center scroll; 
-  }
+  }*/
 
   .callout {
 	background: url(../img/callout.jpg) no-repeat center center scroll; 

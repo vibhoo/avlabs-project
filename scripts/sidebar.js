@@ -1,14 +1,15 @@
-<!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
-          $("#menu-close").click(function(e) {
+/*<!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->*/
+    
+        $("#menu-close").click(function(e) {
             e.preventDefault();
             $("#sidebar-wrapper").toggleClass("active");
         });
-   
+    
         $("#menu-toggle").click(function(e) {
             e.preventDefault();
             $("#sidebar-wrapper").toggleClass("active");
         });
-   
+    
       $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
           if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
@@ -25,3 +26,4 @@
           }
         });
       });
+  
