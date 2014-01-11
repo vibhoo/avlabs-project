@@ -63,7 +63,7 @@ body {
 	right: 0;
 	background: #fff;
 	color: #47a3da;
-	outline: 1px solid #fff; /* avoid gap */
+	outline: 1px solid  #47a3da; /* avoid gap */
 }
 
 /* Intro content, profile image and name, back button */
@@ -97,8 +97,8 @@ body {
 }
 
 .intro-content h1 > span:first-child {
-	font-weight: 300;
-	font-size: 2em;
+	font-weight: 150;
+	font-size: 1em;
 }
 
 .intro-content h1 > span:nth-child(2) {
@@ -107,7 +107,7 @@ body {
 	padding: 0.8em;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-size: 0.8em;
+	font-size: 0.4em;
 }
 
 .intro-content h1 > span:nth-child(2):before {
