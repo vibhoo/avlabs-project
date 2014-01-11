@@ -54,15 +54,15 @@ body {
 
 .side-left {
 	left: 0;
-	background: rgb(56, 78, 124);
+	background: rgb(44, 133, 76);
 	color: #fff;
 	outline: 1px solid #47a3da; /* avoid gap */
 }
 
 .side-right {
 	right: 0;
-	background: rgb(44,119,133);
-	color: #fff;
+	background: #fff;
+	color: #47a3da;
 	outline: 1px solid #fff; /* avoid gap */
 }
 
@@ -88,7 +88,7 @@ body {
 .profile img {
 	max-width: 100%;
 	border-radius: 50%;
-	opacity: 0.6;
+	opacity: 0.9;
 }
 
 .intro-content h1 > span {
@@ -97,17 +97,17 @@ body {
 }
 
 .intro-content h1 > span:first-child {
-	font-weight: 150;
-	font-size: 1em;
+	font-weight: 300;
+	font-size: 2em;
 }
 
 .intro-content h1 > span:nth-child(2) {
 	position: relative;
 	margin-top: 0.5em;
-	padding: 0.4em;
+	padding: 0.8em;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-size: 0.4em;
+	font-size: 0.8em;
 }
 
 .intro-content h1 > span:nth-child(2):before {
@@ -121,7 +121,7 @@ body {
 }
 
 .side-right .intro-content h1 > span:nth-child(2):before {
-	background: #fff;
+	background: #47a3da;
 }
 
 .back {
@@ -133,7 +133,7 @@ body {
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	color: #47a3da;
+	color: rgb(44, 133, 76);
 	text-align: center;
 	font-size: 22px;
 	line-height: 44px;
@@ -222,12 +222,12 @@ body {
 .page-inner h2 {
 	margin: 0 0 1em 0;
 	font-weight: 150;
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 .page-inner p {
-	font-weight: 300;
-	font-size: 1.2em;
+	font-weight: 150;
+	font-size: 1em;
 }
 
 /* All transitions */
